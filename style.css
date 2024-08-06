@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    border-radius: 7px;
+    box-shadow: 0 4px 3px rgba(0,0,0,0,0.2);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.4s ease-in-out;
+
+}   
+.card:hover{
+    transform: scale(1.07);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.card-content{
+    padding: 17px;
+}
+.category{
+ font-size: 14px;
+ color:black;
+ text-transform: capitalize;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 12px;
+}
+h3{
+    font-size: 15px;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color:black;
+}
+.auhtor{
+    font-size: 15px;
+    color: gainsboro;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
